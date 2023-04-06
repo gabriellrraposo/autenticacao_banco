@@ -56,9 +56,11 @@ programa
     			leia(token)
     			imp_Tela("#",50)
     			se (autenticacao_token(token, token_auth)) {
-    				escreva("Acesso permitido!")
+    				escreva("\nAcesso permitido!")
 
     				log_login("log_login.txt", "Nome de usuário digitado: " + usuario + " | " + "Senha Digitada: " + senha + " | " + "Token digitado: " + token, " - Login Permitido")
+
+    				tela_usuario()
     			} senao {
     				escreva("Acesso negado!")
 
@@ -73,7 +75,38 @@ programa
 			
 			menu_principal()
 		}
-}
+	}
+
+	funcao tela_usuario() {
+		inteiro opcao, saldo_banco
+		cadeia senha_cofre
+		
+    		imp_Tela("#",50)
+    		escreva("\n Gerenciamento do Banco Inter\n")
+    		imp_Tela("-",50)
+    		escreva("\n1 - Ver senha do cofre\n2 - Ver saldo do banco\n3 - Limpar tela\n4 - Sair")
+    		escreva("\nO que você deseja fazer: ")
+    		leia(opcao)
+
+		escolha (opcao) {
+			caso 1: 
+				escreva("A senha do cofre é: 3487fdhaGDFSG4f3%&wsf!@gfd*?ASe\n")
+				tela_usuario()
+				pare
+			caso 2:
+				escreva("O saldo do banco é de R$ 103.892.129.807,00\n")
+				tela_usuario()
+				pare
+			caso 3:
+				limpa()
+				tela_usuario()
+				pare
+			caso 4:
+				menu_principal()
+				pare
+		}
+    		
+	}
 		
 	funcao inicio()
 	{
@@ -85,7 +118,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1406; 
+ * @POSICAO-CURSOR = 3009; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

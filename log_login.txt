@@ -1,3 +1,7 @@
 Nome de usuário digitado: adm | Senha Digitada: BAF | Token digitado: 164 - Login Permitido
 Nome de usuário digitado: adm | Senha Digitada: 4353 - Usuário e Senha negados
 Nome de usuário digitado: adm | Senha Digitada: BAF | Token digitado: gfds - Token Negado
+Nome de usuário digitado: adm | Senha Digitada: BAF | Token digitado: 164 - Login Permitido
+Nome de usuário digitado: adm | Senha Digitada: BAF | Token digitado: 164 - Login Permitido
+Nome de usuário digitado: adm | Senha Digitada: BAF | Token digitado: 164 - Login Permitido
+Nome de usuário digitado: adm | Senha Digitada: BAF | Token digitado: 164 - Login Permitido
